@@ -1,0 +1,10 @@
+# Request
+string topic
+nav_msgs/Path path
+float32 timeout_sec 1.0
+---
+# Result
+bool success
+---
+# Feedback
+float32 distance

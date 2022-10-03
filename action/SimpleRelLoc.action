@@ -1,0 +1,17 @@
+# Request
+# the rays in <topic> points at <frame_id>
+# localize ray in <parent_frame_id> or root(frame_id) if direction is 1
+# localize <frame_id> in <parent_frame_id> or root(ray) if direction is -1
+
+int8 RAY_WRT_FRAME = -1
+int8 FRAME_WRT_RAY = 1
+
+string topic
+string frame_id
+string parent_frame_id
+int8 direction 1
+---
+# Result
+bool success
+---
+# Feedback
