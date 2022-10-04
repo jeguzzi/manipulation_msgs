@@ -1,2 +1,5 @@
+string user
 ---
+string user
+bool success
 ---

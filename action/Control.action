@@ -1,5 +1,5 @@
 string user
 bool value
 ---
-bool success
+string user
 ---
