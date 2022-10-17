@@ -1,6 +1,7 @@
 # Request
 float32[] targets
 string user_name
+float32 height 
 ---
 # Result
 bool success
