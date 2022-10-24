@@ -1,8 +1,12 @@
+uint8 IGNORE=0
+uint8 SNAP=1
+uint8 POINT=2
+
 # Request
 string topic
 nav_msgs/Path path
 float32 timeout_sec 1.0
-bool snap_to_object false
+uint8 in_front_of_object 0
 ---
 # Result
 bool success
